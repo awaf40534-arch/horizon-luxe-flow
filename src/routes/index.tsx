@@ -6,7 +6,6 @@ import { About } from "@/components/horizon/About";
 import { Pillars } from "@/components/horizon/Pillars";
 import { Stats } from "@/components/horizon/Stats";
 import { BentoServices } from "@/components/horizon/BentoServices";
-import { QRSection } from "@/components/horizon/QRSection";
 import { Contact } from "@/components/horizon/Contact";
 import { Footer } from "@/components/horizon/Footer";
 
@@ -39,7 +38,6 @@ function Index() {
       <Pillars />
       <Stats />
       <BentoServices />
-      <QRSection />
       <Contact />
       <Footer />
     </main>
