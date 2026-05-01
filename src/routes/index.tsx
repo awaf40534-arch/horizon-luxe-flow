@@ -3,9 +3,9 @@ import { Background } from "@/components/horizon/Background";
 import { Nav } from "@/components/horizon/Nav";
 import { Hero } from "@/components/horizon/Hero";
 import { About } from "@/components/horizon/About";
-import { Pillars } from "@/components/horizon/Pillars";
 import { Stats } from "@/components/horizon/Stats";
 import { BentoServices } from "@/components/horizon/BentoServices";
+import { HumanShowcase } from "@/components/horizon/HumanShowcase";
 import { Sectors } from "@/components/horizon/Sectors";
 import { Contact } from "@/components/horizon/Contact";
 import { Footer } from "@/components/horizon/Footer";
@@ -36,9 +36,9 @@ function Index() {
       <Nav />
       <Hero />
       <About />
-      <Pillars />
       <Stats />
       <BentoServices />
+      <HumanShowcase />
       <Sectors />
       <Contact />
       <Footer />

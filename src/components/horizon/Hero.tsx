@@ -1,5 +1,6 @@
 import { ArrowDown, Sparkles } from "lucide-react";
 import { MagneticButton } from "./MagneticButton";
+import { Scene3D } from "./Scene3D";
 
 const TITLE = ["Éclairer", "l'avenir,", "Optimiser", "le présent."];
 
@@ -9,6 +10,12 @@ export function Hero() {
       id="top"
       className="relative flex min-h-[100svh] items-center justify-center px-5 pt-28 pb-16 sm:px-8"
     >
+      {/* Ambient 3D figures */}
+      <Scene3D
+        variant="ambient"
+        className="pointer-events-none absolute inset-0 -z-[5] opacity-70"
+      />
+
       <div className="relative z-10 mx-auto max-w-5xl text-center">
         <div
           className="mb-6 inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/30 bg-white/5 px-4 py-1.5 backdrop-blur-md animate-[fade-up_0.8s_ease-out_both]"
