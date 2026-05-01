@@ -32,7 +32,7 @@ export function BentoServices() {
                   <GraduationCap className="h-6 w-6 text-[var(--gold)]" strokeWidth={1.5} />
                 </div>
                 <p className="text-[10px] font-medium uppercase tracking-[0.3em] text-[var(--gold)]/80">
-                  01 — Phare
+                  Phare
                 </p>
                 <h3 className="mt-3 font-serif text-3xl leading-[1.1] text-[var(--ivory)] sm:text-5xl">
                   Orientation Scolaire
@@ -61,7 +61,7 @@ export function BentoServices() {
                   <Building2 className="h-5 w-5 text-[var(--mauve)]" strokeWidth={1.5} />
                 </div>
                 <p className="text-[10px] font-medium uppercase tracking-[0.3em] text-[var(--gold)]/80">
-                  02
+                  Entreprises
                 </p>
                 <h3 className="mt-1.5 font-serif text-2xl leading-tight text-[var(--ivory)]">
                   Conseil RH & Stratégie
@@ -82,7 +82,7 @@ export function BentoServices() {
                   <Briefcase className="h-5 w-5 text-[var(--gold)]" strokeWidth={1.5} />
                 </div>
                 <p className="text-[10px] font-medium uppercase tracking-[0.3em] text-[var(--gold)]/80">
-                  03
+                  Carrière
                 </p>
                 <h3 className="mt-1.5 font-serif text-2xl leading-tight text-[var(--ivory)]">
                   Insertion Professionnelle
@@ -105,7 +105,7 @@ export function BentoServices() {
                   </div>
                   <div>
                     <p className="text-[10px] font-medium uppercase tracking-[0.3em] text-[var(--gold)]/80">
-                      04 — Innovation
+                      Innovation
                     </p>
                     <h3 className="mt-1.5 font-serif text-2xl leading-tight text-[var(--ivory)] sm:text-3xl">
                       Digital <span className="text-gradient-luxe">RH</span>

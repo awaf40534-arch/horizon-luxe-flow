@@ -1,4 +1,4 @@
-import { MessageCircle, Instagram, Mail, ArrowUpRight } from "lucide-react";
+import { MessageCircle, Instagram, Mail, Linkedin, ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const channels = [
@@ -23,6 +23,13 @@ const channels = [
     href: "#",
     accent: "from-[var(--gold)]/30 to-[var(--mauve)]/20",
   },
+  {
+    icon: Linkedin,
+    label: "LinkedIn",
+    hint: "Horizon RH",
+    href: "#",
+    accent: "from-[#0A66C2]/30 to-[var(--gold)]/20",
+  },
 ];
 
 export function Contact() {
@@ -40,7 +47,7 @@ export function Contact() {
           </h2>
         </Reveal>
 
-        <div className="grid gap-4 sm:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {channels.map((c, i) => (
             <Reveal key={c.label} delay={i * 100}>
               <a
