@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { Environment, Float } from "@react-three/drei";
-import { Suspense } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { HumanFigure } from "./HumanFigure";
 
 interface Props {
@@ -13,6 +13,10 @@ interface Props {
  * Showcase: a centered trio for the dedicated section.
  */
 export function Scene3D({ variant = "ambient", className }: Props) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return <div className={className} aria-hidden />;
+
   return (
     <div className={className} aria-hidden>
       <Canvas
