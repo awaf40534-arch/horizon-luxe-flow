@@ -1,7 +1,7 @@
 import { ArrowDown, Sparkles } from "lucide-react";
 import { MagneticButton } from "./MagneticButton";
 
-const TITLE = ["Éclairer", "les parcours,", "révéler", "les talents."];
+const TITLE = ["Éclairer", "l'avenir,", "Optimiser", "le présent."];
 
 export function Hero() {
   return (
@@ -39,9 +39,9 @@ export function Hero() {
           className="mx-auto mt-7 max-w-2xl text-balance text-base leading-relaxed text-[var(--ivory)]/70 sm:text-lg animate-[fade-up_1s_ease-out_both]"
           style={{ animationDelay: "700ms" }}
         >
-          Horizon RH accompagne la jeunesse africaine et conseille les
-          entreprises avec une exigence : faire de chaque parcours une
-          trajectoire d'excellence.
+          Une start-up sociale basée au Sénégal dédiée à l'accompagnement des
+          jeunes dans leurs transitions scolaires et au conseil RH innovant
+          pour les entreprises.
         </p>
 
         <div
