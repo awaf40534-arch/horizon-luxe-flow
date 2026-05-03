@@ -33,11 +33,15 @@ export const Route = createRootRoute({
       { name: "description", content: "Start-up sociale sénégalaise dédiée à l'orientation des jeunes et au conseil RH innovant pour les entreprises africaines." },
       { name: "author", content: "Horizon RH" },
       { name: "theme-color", content: "#0A1A3F" },
-      { property: "og:title", content: "Horizon RH — Éclairer les parcours" },
-      { property: "og:description", content: "Orientation, carrière et conseil RH au Sénégal." },
+      { property: "og:title", content: "Horizon RH — Éclairer les parcours, révéler les talents" },
+      { property: "og:description", content: "Start-up sociale sénégalaise dédiée à l'orientation des jeunes et au conseil RH innovant pour les entreprises africaines." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Horizon RH — Éclairer les parcours, révéler les talents" },
+      { name: "twitter:description", content: "Start-up sociale sénégalaise dédiée à l'orientation des jeunes et au conseil RH innovant pour les entreprises africaines." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/72b168d3-3b03-4042-98f7-082b3aa9b8d6/id-preview-352c2067--b6cad973-b4d8-4d4a-a24b-d8640ad165d1.lovable.app-1777770718220.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/72b168d3-3b03-4042-98f7-082b3aa9b8d6/id-preview-352c2067--b6cad973-b4d8-4d4a-a24b-d8640ad165d1.lovable.app-1777770718220.png" },
     ],
     links: [
       {
