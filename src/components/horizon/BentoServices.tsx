@@ -6,7 +6,7 @@ export const BentoServices: React.FC = () => {
   return (
     <div className="relative min-h-screen">
       {/* Services Bento Grid */}
-      <div className="relative px-5 py-20 sm:px-8 sm:py-24">
+      <div className="relative px-5 py-12 sm:px-8 sm:py-16">
         <div className="mx-auto max-w-7xl">
           <Reveal className="mb-16 max-w-4xl text-center">
             <p className="mb-4 text-[12px] font-semibold uppercase tracking-[0.4em] text-[var(--gold)]">
@@ -130,7 +130,7 @@ export const BentoServices: React.FC = () => {
       </div>
 
       {/* Section Nos Fondements */}
-      <div id="fondements" className="relative px-5 py-20 sm:px-8 sm:py-24">
+      <div id="fondements" className="relative px-5 py-12 sm:px-8 sm:py-16">
         <div className="mx-auto max-w-7xl">
           <Reveal className="mb-12 max-w-4xl text-center">
             <p className="mb-4 text-[12px] font-semibold uppercase tracking-[0.4em] text-[var(--gold)]">
