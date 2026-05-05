@@ -6,7 +6,7 @@ export function About() {
       <div className="mx-auto max-w-4xl">
         <Reveal>
           <p className="mb-6 text-[11px] font-medium uppercase tracking-[0.3em] text-[var(--gold)]">
-            — La maison
+            — Description
           </p>
         </Reveal>
         <Reveal delay={120}>
