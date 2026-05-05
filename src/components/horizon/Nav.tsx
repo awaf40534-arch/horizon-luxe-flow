@@ -23,10 +23,11 @@ export function Nav() {
     >
       <nav className="glass-strong flex items-center gap-2 rounded-full border border-[var(--gold)]/25 px-3 py-2 sm:px-4 sm:gap-4">
         <a href="#top" className="flex items-center gap-2 px-2">
-          <span className="relative flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-[var(--gold)] to-[var(--mauve)]">
-            <span className="absolute inset-[2px] rounded-full bg-[var(--royal-deep)]" />
-            <span className="relative font-serif text-sm text-[var(--gold)]">H</span>
-          </span>
+          <img
+            src="/images/horizon-logo.png"
+            alt="Horizon RH"
+            className="h-7 w-7 rounded-full"
+          />
           <span className="hidden font-serif text-sm tracking-wider text-[var(--ivory)] sm:block">
             Horizon<span className="text-[var(--gold)]">·</span>RH
           </span>
