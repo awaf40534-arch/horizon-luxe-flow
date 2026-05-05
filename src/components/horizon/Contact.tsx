@@ -41,7 +41,7 @@ export function Contact() {
             — Échanger
           </p>
           <h2 className="font-serif text-[clamp(2rem,5.5vw,4rem)] font-medium leading-[1.05] text-[var(--ivory)]">
-            Construisons votre
+            Construisez votre
             <br />
             <span className="text-gradient-luxe">prochain horizon.</span>
           </h2>
