@@ -27,8 +27,8 @@ export const BentoServices: React.FC = () => {
               <div className="relative group">
                 <div className="absolute -inset-1.5 bg-gradient-to-r from-fuchsia-500 via-purple-500 to-violet-400 rounded-2xl blur-xl opacity-25 group-hover:opacity-40 transition-all duration-500 group-hover:blur-2xl"></div>
                 <div className="relative overflow-hidden rounded-2xl glass-premium p-6 lg:p-7 shadow-xl shadow-[rgba(0,0,0,0.15)] border border-[var(--gold)]/25">
-                  <div className="flex gap-4 lg:gap-5 h-[18rem] lg:h-[16rem]">
-                    <div className="flex flex-col justify-between flex-1">
+                  <div className="flex flex-col lg:flex-row gap-4 lg:gap-5 lg:h-[16rem]">
+                    <div className="flex flex-col justify-between flex-1 order-2 lg:order-1">
                       <div>
                         <div className="flex items-center gap-2 mb-4">
                           <div className="p-2 rounded-lg bg-gradient-to-br from-fuchsia-500/25 to-fuchsia-500/10 ring-1 ring-fuchsia-400/40">
@@ -41,17 +41,11 @@ export const BentoServices: React.FC = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="hidden lg:block relative w-40 h-full flex-shrink-0">
+                    <div className="relative w-full h-48 sm:h-56 lg:w-40 lg:h-full flex-shrink-0 order-1 lg:order-2">
                       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-fuchsia-500/20 to-violet-500/15 blur-lg opacity-60"></div>
                       <div className="relative h-full w-full overflow-hidden rounded-xl border border-white/15 shadow-lg shadow-black/30">
                         <img src="/images/service-personnel-side.jpg" alt="Anglais 100% pratique" className="w-full h-full object-cover levitate" />
                       </div>
-                    </div>
-                  </div>
-                  <div className="lg:hidden mt-3 relative h-28 -mx-6 -mb-6">
-                    <div className="absolute inset-0 rounded-b-2xl overflow-hidden">
-                      <div className="absolute inset-0 rounded-b-2xl bg-gradient-to-r from-fuchsia-500/20 to-violet-500/15 blur-lg opacity-60 z-10"></div>
-                      <img src="/images/service-personnel-side.jpg" alt="Anglais 100% pratique" className="w-full h-full object-cover levitate" />
                     </div>
                   </div>
                 </div>
@@ -62,8 +56,8 @@ export const BentoServices: React.FC = () => {
               <div className="relative group">
                 <div className="absolute -inset-1.5 bg-gradient-to-r from-amber-500 via-yellow-400 to-orange-400 rounded-2xl blur-xl opacity-25 group-hover:opacity-40 transition-all duration-500 group-hover:blur-2xl"></div>
                 <div className="relative overflow-hidden rounded-2xl glass-premium p-6 lg:p-7 shadow-xl shadow-[rgba(0,0,0,0.15)] border border-[var(--gold)]/25">
-                  <div className="flex gap-4 lg:gap-5 h-[18rem] lg:h-[16rem]">
-                    <div className="flex flex-col justify-between flex-1">
+                  <div className="flex flex-col lg:flex-row gap-4 lg:gap-5 lg:h-[16rem]">
+                    <div className="flex flex-col justify-between flex-1 order-2 lg:order-1">
                       <div>
                         <div className="flex items-center gap-2 mb-4">
                           <div className="p-2 rounded-lg bg-gradient-to-br from-amber-500/25 to-amber-500/10 ring-1 ring-amber-400/40">
@@ -76,17 +70,11 @@ export const BentoServices: React.FC = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="hidden lg:block relative w-40 h-full flex-shrink-0">
+                    <div className="relative w-full h-48 sm:h-56 lg:w-40 lg:h-full flex-shrink-0 order-1 lg:order-2">
                       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-amber-500/20 to-orange-500/15 blur-lg opacity-60"></div>
                       <div className="relative h-full w-full overflow-hidden rounded-xl border border-white/15 shadow-lg shadow-black/30">
                         <img src="/images/service-numerique-side.jpg" alt="Initiation au numérique" className="w-full h-full object-cover levitate" style={{ animationDelay: '0.2s' }} />
                       </div>
-                    </div>
-                  </div>
-                  <div className="lg:hidden mt-3 relative h-28 -mx-6 -mb-6">
-                    <div className="absolute inset-0 rounded-b-2xl overflow-hidden">
-                      <div className="absolute inset-0 rounded-b-2xl bg-gradient-to-r from-amber-500/20 to-orange-500/15 blur-lg opacity-60 z-10"></div>
-                      <img src="/images/service-numerique-side.jpg" alt="Initiation au numérique" className="w-full h-full object-cover levitate" style={{ animationDelay: '0.2s' }} />
                     </div>
                   </div>
                 </div>
@@ -97,8 +85,8 @@ export const BentoServices: React.FC = () => {
               <div className="relative group">
                 <div className="absolute -inset-1.5 bg-gradient-to-r from-violet-500 via-purple-500 to-fuchsia-400 rounded-2xl blur-xl opacity-25 group-hover:opacity-40 transition-all duration-500 group-hover:blur-2xl"></div>
                 <div className="relative overflow-hidden rounded-2xl glass-premium p-6 lg:p-7 shadow-xl shadow-[rgba(0,0,0,0.15)] border border-[var(--gold)]/25">
-                  <div className="flex gap-4 lg:gap-5 h-[18rem] lg:h-[16rem]">
-                    <div className="flex flex-col justify-between flex-1">
+                  <div className="flex flex-col lg:flex-row gap-4 lg:gap-5 lg:h-[16rem]">
+                    <div className="flex flex-col justify-between flex-1 order-2 lg:order-1">
                       <div>
                         <div className="flex items-center gap-2 mb-4">
                           <div className="p-2 rounded-lg bg-gradient-to-br from-purple-500/25 to-purple-500/10 ring-1 ring-purple-400/40">
@@ -111,16 +99,12 @@ export const BentoServices: React.FC = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="hidden lg:block relative w-48 h-full flex-shrink-0 pr-2">
+                    <div className="relative w-full h-56 sm:h-64 lg:w-48 lg:h-full flex-shrink-0 lg:pr-2 order-1 lg:order-2">
                       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-purple-500/20 to-violet-500/15 blur-lg opacity-60"></div>
                       <div className="relative h-full w-full rounded-xl border border-white/15 shadow-lg shadow-black/30">
                         <img src="/images/service-anglais-side.jpg" alt="Développement personnel" className="w-full h-full object-contain object-center levitate z-10" style={{ animationDelay: '0.4s' }} />
                       </div>
                     </div>
-                  </div>
-                  <div className="lg:hidden mt-3 relative h-32 -mx-6 -mb-6 px-2">
-                    <div className="absolute inset-0 rounded-b-2xl bg-gradient-to-r from-purple-500/20 to-violet-500/15 blur-lg opacity-60 z-10"></div>
-                    <img src="/images/service-anglais-side.jpg" alt="Développement personnel" className="relative w-full h-full object-contain object-center levitate z-20" style={{ animationDelay: '0.4s' }} />
                   </div>
                 </div>
               </div>
