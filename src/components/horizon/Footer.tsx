@@ -8,9 +8,11 @@ export function Footer() {
           <span className="h-1 w-1 rounded-full bg-[var(--gold)]/50" />
           <span>Éducation</span>
           <span className="h-1 w-1 rounded-full bg-[var(--gold)]/50" />
-          <span>Recrutement</span>
+          <span>Développement personnel</span>
           <span className="h-1 w-1 rounded-full bg-[var(--gold)]/50" />
-          <span>Développement Digital</span>
+          <span>Inclusion sociale</span>
+          <span className="h-1 w-1 rounded-full bg-[var(--gold)]/50" />
+          <span>Ressources humaines</span>
         </div>
         <div className="mt-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="flex items-center gap-3">
