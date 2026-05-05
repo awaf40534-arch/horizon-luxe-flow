@@ -1,7 +1,7 @@
 import { ArrowDown, Sparkles } from "lucide-react";
 import { MagneticButton } from "./MagneticButton";
 
-const TITLE = ["Éclairer", "l'avenir,", "Optimiser", "le présent."];
+const TITLE = ["Votre", "avenir,", "notre", "vision."];
 
 export function Hero() {
   return (
@@ -68,7 +68,6 @@ export function Hero() {
         <ArrowDown className="h-5 w-5 animate-bounce" />
       </a>
 
-      {/* Hero halo */}
       <div
         aria-hidden
         className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[60vh] w-[60vh] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-50 blur-[120px]"
