@@ -1,5 +1,6 @@
 import { Compass, Target, Gem } from "lucide-react";
 import { Reveal } from "./Reveal";
+import teamImage from "@/assets/horizon-team.jpg";
 
 const pillars = [
   {
@@ -35,6 +36,19 @@ export function Pillars() {
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {pillars.map((p, i) => (
+            <>
+            {i === 1 && (
+              <Reveal key="team-image" delay={120}>
+                <div className="glass border-luxe relative h-full overflow-hidden rounded-3xl">
+                  <img
+                    src={teamImage}
+                    alt="Équipe Horizon RH"
+                    className="h-full w-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              </Reveal>
+            )}
             <Reveal key={p.label} delay={i * 120}>
               <article className="glass border-luxe relative h-full overflow-hidden rounded-3xl p-7 sm:p-8">
                 <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--gold)]/20 to-[var(--mauve)]/20 ring-1 ring-[var(--gold)]/30">
@@ -60,6 +74,7 @@ export function Pillars() {
                 )}
               </article>
             </Reveal>
+            </>
           ))}
         </div>
       </div>
