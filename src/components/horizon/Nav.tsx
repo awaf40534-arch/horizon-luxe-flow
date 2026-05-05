@@ -36,6 +36,15 @@ export function Nav() {
   }, []);
 
   return (
+    <>
+    <button
+      type="button"
+      onClick={toggleTheme}
+      aria-label={theme === "dark" ? "Activer le mode clair" : "Activer le mode sombre"}
+      className="glass-strong fixed bottom-4 right-4 z-50 flex h-11 w-11 items-center justify-center rounded-full border border-[var(--gold)]/40 text-[var(--gold)] shadow-lg transition-colors hover:bg-[var(--gold)]/10"
+    >
+      {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+    </button>
     <header
       className={`fixed left-1/2 top-4 z-50 -translate-x-1/2 transition-all duration-500 ${
         scrolled ? "scale-95" : "scale-100"
@@ -65,15 +74,8 @@ export function Nav() {
             </li>
           ))}
         </ul>
-        <button
-          type="button"
-          onClick={toggleTheme}
-          aria-label={theme === "dark" ? "Activer le mode clair" : "Activer le mode sombre"}
-          className="ml-1 flex h-8 w-8 items-center justify-center rounded-full border border-[var(--gold)]/30 text-[var(--gold)] transition-colors hover:bg-[var(--gold)]/10"
-        >
-          {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-        </button>
       </nav>
     </header>
+    </>
   );
 }
