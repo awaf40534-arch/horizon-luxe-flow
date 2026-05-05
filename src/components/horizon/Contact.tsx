@@ -5,8 +5,8 @@ const channels = [
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    hint: "+221 788 734 378",
-    href: "https://wa.me/221788734378",
+    hint: "+221 76 561 45 78",
+    href: "https://wa.me/221765614578",
     accent: "from-[#25D366]/30 to-[var(--gold)]/20",
   },
   {
