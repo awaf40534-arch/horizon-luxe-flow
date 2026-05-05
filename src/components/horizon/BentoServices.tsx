@@ -41,10 +41,10 @@ export const BentoServices: React.FC = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="relative w-full h-48 sm:h-56 lg:w-40 lg:h-full flex-shrink-0 order-1 lg:order-2">
+                    <div className="relative w-full h-56 sm:h-64 lg:w-40 lg:h-full flex-shrink-0 order-1 lg:order-2">
                       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-fuchsia-500/20 to-violet-500/15 blur-lg opacity-60"></div>
                       <div className="relative h-full w-full overflow-hidden rounded-xl border border-white/15 shadow-lg shadow-black/30">
-                        <img src="/images/service-personnel-side.jpg" alt="Anglais 100% pratique" className="w-full h-full object-cover levitate" />
+                        <img src="/images/service-personnel-side.jpg" alt="Anglais 100% pratique" className="w-full h-full object-contain object-center lg:object-cover levitate" />
                       </div>
                     </div>
                   </div>
