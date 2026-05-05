@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Sun, Moon } from "lucide-react";
 
 const links = [
   { href: "#about", label: "À propos" },
@@ -8,6 +9,25 @@ const links = [
 
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const [theme, setTheme] = useState<"dark" | "light">("dark");
+
+  useEffect(() => {
+    const stored = (typeof window !== "undefined" && localStorage.getItem("theme")) as
+      | "dark"
+      | "light"
+      | null;
+    const initial = stored ?? "dark";
+    setTheme(initial);
+    document.documentElement.classList.toggle("light", initial === "light");
+  }, []);
+
+  const toggleTheme = () => {
+    const next = theme === "dark" ? "light" : "dark";
+    setTheme(next);
+    document.documentElement.classList.toggle("light", next === "light");
+    localStorage.setItem("theme", next);
+  };
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
     onScroll();
@@ -45,6 +65,14 @@ export function Nav() {
             </li>
           ))}
         </ul>
+        <button
+          type="button"
+          onClick={toggleTheme}
+          aria-label={theme === "dark" ? "Activer le mode clair" : "Activer le mode sombre"}
+          className="ml-1 flex h-8 w-8 items-center justify-center rounded-full border border-[var(--gold)]/30 text-[var(--gold)] transition-colors hover:bg-[var(--gold)]/10"
+        >
+          {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+        </button>
       </nav>
     </header>
   );
