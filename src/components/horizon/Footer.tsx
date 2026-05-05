@@ -14,16 +14,17 @@ export function Footer() {
         </div>
         <div className="mt-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="flex items-center gap-3">
-            <span className="relative flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-[var(--gold)] to-[var(--mauve)]">
-              <span className="absolute inset-[2px] rounded-full bg-[var(--royal-deep)]" />
-              <span className="relative font-serif text-sm text-[var(--gold)]">H</span>
-            </span>
+            <img
+              src="/images/horizon-logo.png"
+              alt="Horizon RH"
+              className="h-8 w-8 rounded-full"
+            />
             <div className="leading-tight">
               <p className="font-serif text-base text-[var(--ivory)]">
                 Horizon<span className="text-[var(--gold)]"> · </span>RH
               </p>
               <p className="text-[10px] uppercase tracking-[0.2em] text-[var(--ivory)]/50">
-                Dakar · Sénégal
+                Saint-Louis · Sénégal
               </p>
             </div>
           </div>
