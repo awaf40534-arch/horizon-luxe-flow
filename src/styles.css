@@ -122,6 +122,32 @@
   --shadow-glow: 0 0 40px oklch(0.78 0.13 85 / 0.25);
 }
 
+.light {
+  /* Light theme: blanc cassé, textes sombres, dorés conservés */
+  --background: oklch(0.97 0.01 85);
+  --foreground: oklch(0.20 0.04 270);
+  --royal: oklch(0.97 0.01 85);
+  --royal-deep: oklch(0.93 0.015 85);
+  --ivory: oklch(0.20 0.04 270);
+  --muted-foreground: oklch(0.35 0.04 270 / 0.75);
+  --gradient-royal: radial-gradient(ellipse at top, oklch(0.99 0.01 85) 0%, oklch(0.92 0.02 85) 60%);
+  --shadow-luxe: 0 20px 60px -20px oklch(0.65 0.22 295 / 0.25), 0 8px 24px -8px oklch(0 0 0 / 0.12);
+}
+
+.light .glass {
+  background: linear-gradient(135deg, oklch(0.20 0.04 270 / 0.04), oklch(0.20 0.04 270 / 0.02));
+  border: 1px solid oklch(0.78 0.13 85 / 0.30);
+  box-shadow:
+    inset 0 1px 0 oklch(1 0 0 / 0.5),
+    0 8px 32px -8px oklch(0.20 0.04 270 / 0.12);
+}
+
+.light .glass-strong,
+.light .glass-premium {
+  background: linear-gradient(135deg, oklch(1 0 0 / 0.85), oklch(1 0 0 / 0.65));
+  border: 1px solid oklch(0.78 0.13 85 / 0.35);
+}
+
 .dark {
   --background: oklch(0.129 0.042 264.695);
   --foreground: oklch(0.984 0.003 247.858);
