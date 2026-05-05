@@ -2,7 +2,7 @@ import { Reveal } from "./Reveal";
 
 export function About() {
   return (
-    <section id="about" className="relative px-5 py-24 sm:px-8 sm:py-32">
+    <section id="about" className="relative px-5 py-14 sm:px-8 sm:py-20">
       <div className="mx-auto max-w-4xl">
         <Reveal>
           <p className="mb-6 text-[11px] font-medium uppercase tracking-[0.3em] text-[var(--gold)]">

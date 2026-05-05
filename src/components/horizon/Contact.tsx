@@ -34,7 +34,7 @@ const channels = [
 
 export function Contact() {
   return (
-    <section id="contact" className="relative px-5 py-24 sm:px-8 sm:py-32">
+    <section id="contact" className="relative px-5 py-14 sm:px-8 sm:py-20">
       <div className="mx-auto max-w-6xl">
         <Reveal className="mb-14 max-w-3xl text-center mx-auto">
           <p className="mb-3 text-[11px] font-medium uppercase tracking-[0.3em] text-[var(--gold)]">

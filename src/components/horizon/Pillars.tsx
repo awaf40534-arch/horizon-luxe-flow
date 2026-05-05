@@ -23,7 +23,7 @@ const pillars = [
 
 export function Pillars() {
   return (
-    <section className="relative px-5 py-20 sm:px-8 sm:py-28">
+    <section className="relative px-5 py-12 sm:px-8 sm:py-16">
       <div className="mx-auto max-w-6xl">
         <Reveal className="mb-12 text-center sm:mb-16">
           <p className="mb-3 text-[11px] font-medium uppercase tracking-[0.3em] text-[var(--gold)]">

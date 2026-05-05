@@ -9,7 +9,7 @@ const sectors = [
 
 export function Sectors() {
   return (
-    <section className="relative px-5 py-16 sm:px-8 sm:py-20">
+    <section className="relative px-5 py-10 sm:px-8 sm:py-14">
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <div className="glass border-luxe relative overflow-hidden rounded-[32px] px-6 py-8 sm:px-12 sm:py-10">
