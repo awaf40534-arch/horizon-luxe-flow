@@ -70,10 +70,10 @@ export const BentoServices: React.FC = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="relative w-full h-48 sm:h-56 lg:w-40 lg:h-full flex-shrink-0 order-1 lg:order-2">
+                    <div className="relative w-full h-64 sm:h-72 lg:w-40 lg:h-full flex-shrink-0 order-1 lg:order-2">
                       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-amber-500/20 to-orange-500/15 blur-lg opacity-60"></div>
                       <div className="relative h-full w-full overflow-hidden rounded-xl border border-white/15 shadow-lg shadow-black/30">
-                        <img src="/images/service-numerique-side.jpg" alt="Initiation au numérique" className="w-full h-full object-cover levitate" style={{ animationDelay: '0.2s' }} />
+                        <img src="/images/service-numerique-side.jpg" alt="Initiation au numérique" className="w-full h-full object-contain object-center lg:object-cover levitate" style={{ animationDelay: '0.2s' }} />
                       </div>
                     </div>
                   </div>
